@@ -4,7 +4,7 @@ title:  "Practice" # 제목
 date:   2025-01-16 09:37:25 # 그날 날짜 초는 아무거나
 categories: 사용 방법 # 여기에 카테고리
 tags: Practice # 태그 붙히고 싶은 내용
-image: /assets/article_images/2025-01-16-Practice/desktop.JPG
+image: /assets/article_images/2025-01-16-Practice/practice_0116.png
 ---
  `_posts` 디렉토리에서 해당 글을 작성 할 수 있음
 `jekyll serve --watch` 명령어로 빌드 가능
