@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Practice"
+date:  2025-01-14 10:34:25 # 시간이 미국 기준이라 하루 전꺼 안 쓰면 오류남 시간을 한국꺼로 맞추는 방법 찾아야함
+categories: tutorial
+tags: featured
+image: /assets/article_images/2025-01-16-Practice/practice_0116.png
+---
+`_posts` 디렉토리에서 해당 글을 작성 할 수 있음
+`jekyll serve --watch` 명령어로 빌드 가능
+
+새로운 글을 작성하려면 `_posts` 디렉토리에 `YYYY-MM-DD-name-of-post.ext` 와 같은 방식으로 마크다운 작성
+
+코드 사용 방법
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+링크 작성 방법
+{% highlight ruby %}
+# [원하는 텍스트][링크]
+{% endhighlight %}
+[github][github] # 링크는 하단 39 번줄 활용
+
+#CSS 활용 방법
+
+#Header Formats
+#Header1
+##Header2
+
+#Blockquotes
+>를 활용해서 출력
+
+#Lists
+##orderd lists
+1. 1번
+2. 2번
+
+##unorderd lists
+- 분류
+- 방법
+
+#Combinations
+>Blockquotes안에 unorderd lists 사용 방법
+>
+> - Apple
+> - Banana
+> - Plum
+
+[github]:      https://github.com/uc980319
